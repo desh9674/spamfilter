@@ -14,7 +14,7 @@ cd Env_name/Scripts/activate if necessary
 pip install Flask gunicorn --- if necessary for Ugnix or Ngnix servers,, not needed for windows maybe
 
 
-gunicorn test1:app
+gunicorn test1:app  #### this is command to run a given python file inside gunicorn server, put this in Procfile
 
 
 #### telling heroku the dependencies ####
@@ -35,6 +35,8 @@ git commit -m " commit first git repository  "
 ########## not for deploying in production #######
 
 git create spamfilt-2021   ######## the spamfilt-2021 is the fucking url, careful
+
+heroku git:remote -a spamfilt   ######### to set an already careted application to currect repository, instead of creating new
 
 git push heroku master    ## this deployes the code
 
