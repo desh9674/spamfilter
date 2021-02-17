@@ -18,3 +18,19 @@ pip freeze > requirements.txt
 
 pip freeze--- to see whats in requirements.txt or packages that are installed in virtual_env
 
+git init  #### makes the project directory into a git repository
+
+git add . ### adds everything to git repo
+
+
+git commit -m " commit first git repository  "
+
+
+
+########## not for deploying in production #######
+
+git create spamfilt-2021   ######## the spamfilt-2021 is the fucking url, careful
+
+git push heroku master    ## this deployes the code
+
+
