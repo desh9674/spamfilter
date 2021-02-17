@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+nltk
+flask
+pytest
+flask-testing
+blinker
+flask-sqlalchemy
+flask-migrate
+flask-wtf
+  
+
+#these are the installed versions in this caps2 environment
+
