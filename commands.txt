@@ -38,6 +38,11 @@ git create spamfilt-2021   ######## the spamfilt-2021 is the fucking url, carefu
 
 heroku git:remote -a spamfilt   ######### to set an already careted application to currect repository, instead of creating new
 
+
+ git push --force --set-upstream heroku master   #  git push --force --set-upstream origin master  --- to wipe out original gir repository files and replace them
+
+
+
 git push heroku master    ## this deployes the code
 
 
