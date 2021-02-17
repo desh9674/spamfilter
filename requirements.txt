@@ -27,7 +27,6 @@ nltk==3.5
 numpy
 packaging==20.9
 pandas
-numpy==1.20.0
 packaging==20.9
 pandas==1.2.1
 Pillow==8.1.0
