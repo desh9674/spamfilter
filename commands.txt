@@ -1,5 +1,10 @@
 cd C:\Users\dhira\Desktop\mywork\Virtual Envs projects\readyFirst --- if necessary
 
+Type this in Procfile
+web: gunicorn test1:app --log-file -
+
+
+
 mkdir First --- in necessary
 
 virtualenv Env_name  if necessayr
