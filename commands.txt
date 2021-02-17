@@ -1,0 +1,20 @@
+cd C:\Users\dhira\Desktop\mywork\Virtual Envs projects\readyFirst --- if necessary
+
+mkdir First --- in necessary
+
+virtualenv Env_name  if necessayr
+
+cd Env_name/Scripts/activate if necessary
+
+pip install Flask gunicorn --- if necessary for Ugnix or Ngnix servers,, not needed for windows maybe
+
+
+gunicorn test1:app
+
+
+#### telling heroku the dependencies ####
+
+pip freeze > requirements.txt
+
+pip freeze--- to see whats in requirements.txt or packages that are installed in virtual_env
+
