@@ -41,3 +41,4 @@ heroku git:remote -a spamfilt   ######### to set an already careted application 
 git push heroku master    ## this deployes the code
 
 
+lost in translation
